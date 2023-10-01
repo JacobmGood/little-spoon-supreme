@@ -2,10 +2,6 @@
   width: 80%;
   margin: 0 auto;
 }
-header{
-  background: rgb(255, 255, 255);
-  width: 100%;
-}
 header::after{
   content: '';
   display: table;
@@ -53,8 +49,4 @@ nav a::before{
 }
 nav a:hover::before{
   width: 100%;
-}
-body{
-  background-color: black;
-  color: white;
 }
