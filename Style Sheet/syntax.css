@@ -4,6 +4,7 @@
 }
 header{
   background: rgb(255, 255, 255);
+  width: 100%;
 }
 header::after{
   content: '';
