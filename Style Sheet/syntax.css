@@ -3,7 +3,7 @@
   margin: 0 0;
 }
 header{
-  background: rgb(84, 84, 84);
+  background: rgb(56, 56, 56);
 }
 header::after{
   content: '';
