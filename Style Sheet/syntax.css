@@ -53,3 +53,7 @@ nav a::before{
 nav a:hover::before{
   width: 100%;
 }
+body{
+  background-color: black;
+  font: white;
+}
