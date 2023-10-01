@@ -3,7 +3,7 @@
   margin: 0 0;
 }
 header{
-  background: rgb(56, 56, 56);
+  background: rgb(255, 255, 255);
 }
 header::after{
   content: '';
@@ -13,7 +13,7 @@ header::after{
 .logo{
   float: left;
   padding: 10px 0px;
-  height: 100px;
+  height: 70px;
 }
 .links{
   float: right;
