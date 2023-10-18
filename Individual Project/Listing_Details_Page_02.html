@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Jacob Good - Listing_Details_Page_02</title>
+<meta charset="utf=8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="Style Sheet/syntax.css"> 
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <div class="container">
+        <div class="navbar">
+            <div class="logo">
+                <img src="pictures/Logo.png" width="125px" alt="logo">
+            </div>
+            <nav>
+                <ul id="menuItems">
+                    <li><a href="Home_Page.html">Home</a></li>
+                    <li><a href="Listing_Page.html">Listings</a></li>
+                    <li><a href="About_Page.html">About</a></li>
+                    <li><a href="Contact_Page.html">Contact</a></li>
+                    <li><a href="Reference_Page.html">Reference</a></li>
+                </ul>
+            </nav>
+            <a href="Cart_Page.html">
+            <img src="Pictures/Cart_Icon.png" width="30px" height="30px" alt="cart_icon">
+            </a>
+            <img src="Pictures/Menu_Icon.png" class="menu_icon" onclick="menutoggle()" alt="menu_icon">
+        </div>
+    </div>
+
+<div class="small-container single-product">
+    <div class="row">
+        <div class="col-2">
+            <img src="pictures/House_Listing_02.jpg" width="100%" id="productImg" alt="Listing_02">
+            <div class="small-img-row">
+                <div class="small-img-col">
+                    <img src="pictures/House_Listing_02.jpg" width="100%" class="small-img" alt="Listing_02">
+                </div>
+                <div class="small-img-col">
+                    <img src="pictures/House_Listing_LivingRoom.jpg" width="100%" class="small-img" alt="Listing_02">
+                </div>
+                <div class="small-img-col">
+                    <img src="pictures/House_Listing_StairCase.jpg" width="100%" class="small-img" alt="Listing_02">
+                </div>
+                <div class="small-img-col">
+                    <img src="pictures/House_Listing_Kitchen.jpg" width="100%" class="small-img" alt="Listing_02">
+                </div>
+            </div>
+        </div>
+        <div class="col-2">
+            <p>Home / 723 Greenview Road</p>
+            <h1>723 Greenview Road</h1>
+            <h4>$800,000.00</h4>
+            <a href="" class="btn">Add To Cart</a>
+            <h3>Listing Details <i class="fa fa-indent"></i></h3>
+            <br>
+            <ul style="list-style-image:url('pictures/star-symbol.png')">
+                <li>3 Bedroom</li>
+                <li>1 Bathroom</li>
+                <li>1,235 sqft</li>
+            </ul>
+        </div>
+    </div>
+</div>
+<div class="small-container">
+    <div class="row row-2">
+        <h2>Related Products</h2>
+        <a href="Listing_Page.html"><p>View More</p></a>
+    </div>
+</div>
+<div class="small-container">
+    <div class="row">
+        <div class="col-4">
+            <a href="Listing_Details_Page_01.html"><img src="pictures/House_Listing_01_Front.jpg" alt="Listing_01"></a>
+            <h4>456 Bluestood Street</h4>
+            <div class="rating">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star-half-o"></i>
+                <i class="fa fa-star-o"></i>
+            </div>
+            <p>$250,000.00</p>
+        </div>
+        <div class="col-4">
+            <a href="Listing_Details_Page_03.html"><img src="pictures/House_Listing_03.jpg" alt="Listing_03"></a>
+            <h4>23 Forest Ave</h4>
+            <div class="rating">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star-o"></i>
+            </div>
+            <p>$350,000.00</p>
+        </div>
+    </div>
+</div>
+<!--Footer-->
+<div class="footer">
+    <div class="container">
+        <div class="row">
+            <div class="footer-col-1">
+                <h3>Download Our App</h3>
+                <p>Download App for Android and IOS mobile phone.</p>
+                <div class="app-logo">
+                    <img src="pictures/Apple_Download.png" alt="Apple_Download">
+                    <img src="pictures/Android_Download.png" alt="Android_Download">
+                </div>
+            </div>
+            <div class="footer-col-2">
+                <img src="pictures/StreetTribe_Logo.png" alt="Logo_Name">
+                <p>All is Art - Custom apparel</p>
+            </div>
+            <div class="footer-col-3">
+                <h3>Useful Links</h3>
+                <ul>
+                    <li>Coupons</li>
+                    <li>Blog Post</li>
+                    <li>Return Policy</li>
+                    <li>Join StreetTribe</li>
+                </ul>
+            </div>
+            <div class="footer-col-4">
+                <h3>Follow us</h3>
+                <ul>
+                    <li>Instagram</li>
+                    <li>Facebook</li>
+                    <li>Twitter</li>
+                    <li>Youtube</li>
+                </ul>
+            </div>
+        </div>
+        <hr>
+        <p class="copyright">Copyright Jacob</p>
+    </div>
+</div>
+<script>
+    var menuItems = document.getElementById("menuItems");
+    menuItems.style.maxHeight="0px";
+    function menutoggle(){
+        if(menuItems.style.maxHeight=="0px")
+        {
+            menuItems.style.maxHeight="200px";
+        }
+        else
+        {
+            menuItems.style.maxHeight="0px";
+        }
+    }
+</script>
+<script>
+    var productImg = document.getElementById("productImg");
+    var smallImg = document.getElementsByClassName("small-img");
+    smallImg[0].onclick = function(){
+        productImg.src = smallImg[0].src;
+    }
+    smallImg[1].onclick = function(){
+        productImg.src = smallImg[1].src;
+    }
+    smallImg[2].onclick = function(){
+        productImg.src = smallImg[2].src;
+    }
+    smallImg[3].onclick = function(){
+        productImg.src = smallImg[3].src;
+    }
+</script>
+</body>
+</html>

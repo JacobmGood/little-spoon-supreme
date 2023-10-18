@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Jacob Good - All_Listing_Page</title>
+<meta charset="utf=8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="Style Sheet/syntax.css"> 
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <div class="container">
+        <div class="navbar">
+            <div class="logo">
+                <img src="pictures/Logo.png" width="125px" alt="logo">
+            </div>
+            <nav>
+                <ul id="menuItems">
+                    <li><a href="Home_Page.html">Home</a></li>
+                    <li><a href="Listing_Page.html">Listings</a></li>
+                    <li><a href="About_Page.html">About</a></li>
+                    <li><a href="Contact_Page.html">Contact</a></li>
+                    <li><a href="Reference_Page.html">Reference</a></li>
+                </ul>
+            </nav>
+            <a href="Cart_Page.html">
+                <img src="Pictures/Cart_Icon.png" width="30px" height="30px" alt="cart_icon">
+                </a>
+            <img src="Pictures/Menu_Icon.png" class="menu_icon" onclick="menutoggle()" alt="menu_icon">
+        </div>
+    </div>
+
+<div class="small-container">
+    <div class="row row-2">
+        <h2>All Products</h2>
+        <select>
+            <option>Default Sorting</option>
+            <option>Sort by price</option>
+            <option>Sort by popularity</option>
+            <option>Sort by rating</option>
+            <option>Sort by sale</option>
+        </select>
+    </div>
+    <div class="row">
+        <div class="col-4">
+            <a href="Listing_Details_Page_01.html"><img src="pictures/House_Listing_01_Front.jpg" alt="Listing_01"></a>
+            <h4>456 Bluestood Street</h4>
+            <div class="rating">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star-half-o"></i>
+                <i class="fa fa-star-o"></i>
+            </div>
+            <p>$250,000.00</p>
+        </div>
+        <div class="col-4">
+            <a href="Listing_Details_Page_02.html"><img src="pictures/House_Listing_02.jpg" alt="Listing_02"></a>
+            <h4>723 Greenview Road</h4>
+            <div class="rating">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+            </div>
+            <p>$800,000.00</p>
+        </div>
+        <div class="col-4">
+            <a href="Listing_Details_Page_03.html"><img src="pictures/House_Listing_03.jpg" alt="Listing_03"></a>
+            <h4>23 Forest Ave</h4>
+            <div class="rating">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star-o"></i>
+            </div>
+            <p>$350,000.00</p>
+        </div>
+    </div>
+    </div>
+    <div class="page-btn">
+        <span>1</span>
+        <span>2</span>
+        <span>3</span>
+        <span>4</span>
+        <span>&#8594;</span>
+    </div>
+</div>
+<!--Footer-->
+<div class="footer">
+    <div class="container">
+        <div class="row">
+            <div class="footer-col-1">
+                <h3>Download Our App</h3>
+                <p>Download App for Android and IOS mobile phone.</p>
+                <div class="app-logo">
+                    <img src="pictures/Apple_Download.png" alt="Apple_Download">
+                    <img src="pictures/Android_Download.png" alt="Android_Download">
+                </div>
+            </div>
+            <div class="footer-col-2">
+                <img src="pictures/StreetTribe_Logo.png" alt="Logo_Name">
+                <p>All is Art - Custom apparel</p>
+            </div>
+            <div class="footer-col-3">
+                <h3>Useful Links</h3>
+                <ul>
+                    <li>Coupons</li>
+                    <li>Blog Post</li>
+                    <li>Return Policy</li>
+                    <li>Join StreetTribe</li>
+                </ul>
+            </div>
+            <div class="footer-col-4">
+                <h3>Follow us</h3>
+                <ul>
+                    <li>Instagram</li>
+                    <li>Facebook</li>
+                    <li>Twitter</li>
+                    <li>Youtube</li>
+                </ul>
+            </div>
+        </div>
+        <hr>
+        <p class="copyright">Copyright Jacob</p>
+    </div>
+</div>
+<script>
+    var menuItems = document.getElementById("menuItems");
+    menuItems.style.maxHeight="0px";
+    function menutoggle(){
+        if(menuItems.style.maxHeight=="0px")
+        {
+            menuItems.style.maxHeight="200px";
+        }
+        else
+        {
+            menuItems.style.maxHeight="0px";
+        }
+    }
+</script>
+</body>
+</html>

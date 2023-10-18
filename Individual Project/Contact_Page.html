@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Jacob Good - Contact_Page</title>
+<meta charset="utf=8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="Style Sheet/syntax.css"> 
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <div class="container">
+        <div class="navbar">
+            <div class="logo">
+                <img src="pictures/Logo.png" width="125px" alt="logo">
+            </div>
+            <nav>
+                <ul id="menuItems">
+                    <li><a href="Home_Page.html">Home</a></li>
+                    <li><a href="Listing_Page.html">Listings</a></li>
+                    <li><a href="About_Page.html">About</a></li>
+                    <li><a href="Contact_Page.html">Contact</a></li>
+                    <li><a href="Reference_Page.html">Reference</a></li>
+                </ul>
+            </nav>
+            <a href="Cart_Page.html">
+                <img src="Pictures/Cart_Icon.png" width="30px" height="30px" alt="cart_icon">
+                </a>
+            <img src="Pictures/Menu_Icon.png" class="menu_icon" onclick="menutoggle()" alt="menu_icon">
+        </div>
+    </div>
+
+<div class="small-container">
+    <div class="formTitle"><br>
+        <h1 id="formHead">Real Estate</h1><br>
+        <h3 id="formSubhead">Ideal Home Form</h3><br>
+        <p id="formDetails">Please <b>read each statement carefully</b> and consider each one individually.
+            Give only <b>one answer</b> for each question.</p><br>
+    </div>
+<form>
+<div id="formSurvey">
+        <label>Enter your first name:</label> <br><br>
+        <input type="first name" name="first name" placeholder="Enter your First Name" class="box"> <br><br>
+        <label>Enter your last name:</label> <br><br>
+        <input type="last name" name="last name" placeholder="Enter your Last Name" class="box"> <br><br>
+        <label>Enter your phone number:</label> <br><br>
+        <input type="phone num" name="phone num" placeholder="(000)000-0000" class="box"> <br><br>
+        <label>Enter your email:</label> <br><br>
+        <input type="email" name="email" placeholder="Enter your Email" class="box"> <br><br>
+        <label id="type">Type of property:</label> <br><br>
+            <input type="radio" name="radio" class="click">&nbsp&nbsp&nbspCondominium <br><br>
+            <input type="radio" name="radio" class="click">&nbsp&nbsp&nbspHouse <br><br>    
+        <label>Number of <b>Bedrooms</b>?</label> <br><br>
+    <div id="option1">
+            <select>
+                <option name="Select Option">Select Option</option>
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5+">5+</option>
+            </select>
+    </div> <br>
+        <label>Number of <b>Bathrooms</b>?</label> <br><br>
+    <div id="option1">
+            <select>
+                <option name="Select Option">Select Option</option>
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5+">5+</option>
+            </select>
+    </div> <br>
+    <label><b>Price Range</b>?</label> <br><br>
+    <div id="option1">
+            <select>
+                <option name="Select Option">Select Option</option>
+                <option value=">50k">>50k</option>
+                <option value="50k-100k">50k-100k</option>
+                <option value="100k-200k">100k-200k</option>
+                <option value="200k-500k">200k-500k</option>
+                <option value="500k+">500k+</option>
+            </select>
+    </div> <br>   
+        <label>Additional Comments</label><br><br>
+    <textarea placeholder="Enter Your Comment Here..."></textarea><br>
+<a href="Home_Page.html" class="buttonWork">Submit</a>
+    <a href="Contact_Page.html" class="buttonWork">Reset</a>
+<br><br>
+    <p style="text-align: center;">Thank You!<br>
+        Web: <a href="http://studentweb.cencol.ca/jgood6/">http://studentweb.cencol.ca/jgood6/</a><br>  
+        Email: <a href="Mailto: jgood6@my.centennialcollege.ca">jgood6@my.centennialcollege.ca</a>
+</div>
+</form>   
+</div>
+<!--Footer-->
+<div class="footer">
+    <div class="container">
+        <div class="row">
+            <div class="footer-col-1">
+                <h3>Download Our App</h3>
+                <p>Download App for Android and IOS mobile phone.</p>
+                <div class="app-logo">
+                    <img src="pictures/Apple_Download.png" alt="Apple_Download">
+                    <img src="pictures/Android_Download.png" alt="Android_Download">
+                </div>
+            </div>
+            <div class="footer-col-2">
+                <img src="pictures/StreetTribe_Logo.png" alt="Logo_Name">
+                <p>All is Art - Custom apparel</p>
+            </div>
+            <div class="footer-col-3">
+                <h3>Useful Links</h3>
+                <ul>
+                    <li>Coupons</li>
+                    <li>Blog Post</li>
+                    <li>Return Policy</li>
+                    <li>Join StreetTribe</li>
+                </ul>
+            </div>
+            <div class="footer-col-4">
+                <h3>Follow us</h3>
+                <ul>
+                    <li>Instagram</li>
+                    <li>Facebook</li>
+                    <li>Twitter</li>
+                    <li>Youtube</li>
+                </ul>
+            </div>
+        </div>
+        <hr>
+        <p class="copyright">Copyright Jacob</p>
+    </div>
+</div>
+<script>
+    var menuItems = document.getElementById("menuItems");
+    menuItems.style.maxHeight="0px";
+    function menutoggle(){
+        if(menuItems.style.maxHeight=="0px")
+        {
+            menuItems.style.maxHeight="200px";
+        }
+        else
+        {
+            menuItems.style.maxHeight="0px";
+        }
+    }
+</script>
+</body>
+</html>

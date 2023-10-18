@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Jacob Good - Exam</title>
+<meta charset="utf=8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="Style Sheet/syntax.css"> 
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+<div class="header">
+    <div class="container">
+        <div class="navbar">
+            <div class="logo">
+                <img src="pictures/Logo.png" width="125px" alt="logo">
+            </div>
+            <nav>
+                <ul id="menuItems">
+                    <li><a href="Home_Page.html">Home</a></li>
+                    <li><a href="Listing_Page.html">Listings</a></li>
+                    <li><a href="About_Page.html">About</a></li>
+                    <li><a href="Contact_Page.html">Contact</a></li>
+                    <li><a href="Reference_Page.html">Reference</a></li>
+                </ul>
+            </nav>
+            <a href="Cart_Page.html">
+                <img src="Pictures/Cart_Icon.png" width="30px" height="30px" alt="cart_icon">
+                </a>
+            <img src="Pictures/Menu_Icon.png" class="menu_icon" onclick="menutoggle()" alt="menu_icon">
+        </div>
+        <div class="row">
+            <div class="col-2">
+                <h1>Give Your Look<br>A New Style!</h1>
+                <p>Hi my name is Brent Smith I am a real estate agent,
+                     I always get my clients the best deal that makes
+                     the sellers and buyers happy.
+                </p>
+                    <a href="Listing_Page.html" class="btn">Explore Now &#8594;</a> 
+            </div>
+            <div class="col-2">
+                <img src="pictures/Restate_Agent.png" alt="Realstate_Agent">
+            </div>
+        </div>
+    </div>
+</div>
+<!--SpotLight_Categories-->
+<div class="categories">
+    <div class="small-container">
+        <div class="row">
+            <div class="col-3">
+                <img src="pictures/Home_Page_House_01.jpg" alt="sold01">
+            </div>
+            <div class="col-3">
+                <img src="pictures/Home_Page_House_02.jpg" alt="sold02">
+            </div>
+            <div class="col-3">
+                <img src="pictures/Home_Page_House_03.jpg" alt="sold03">
+            </div>
+        </div>
+    </div>
+</div>
+<!--SpotLight_Products-->
+<div class="small-container">
+
+    <h2 class="title">Featured Listings</h2>
+    <div class="row">
+        <div class="col-4">
+            <a href="Listing_Details_Page_01.html"><img src="pictures/House_Listing_01_Front.jpg" alt="Listing_01"></a>
+            <h4>456 Bluestood Street</h4>
+            <div class="rating">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star-half-o"></i>
+                <i class="fa fa-star-o"></i>
+            </div>
+            <p>$250,000.00</p>
+        </div>
+        <div class="col-4">
+            <a href="Listing_Details_Page_02.html"><img src="pictures/House_Listing_02.jpg" alt="Listing_02"></a>
+            <h4>723 Greenview Road</h4>
+            <div class="rating">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+            </div>
+            <p>$800,000.00</p>
+        </div>
+        <div class="col-4">
+            <a href="Listing_Details_Page_03.html"><img src="pictures/House_Listing_03.jpg" alt="Listing_03"></a>
+            <h4>23 Forest Ave</h4>
+            <div class="rating">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star-o"></i>
+            </div>
+            <p>$350,000.00</p>
+        </div>
+    </div>
+</div>
+<!--Offer-->
+<div class="offer">
+    <div class="small-container">
+        <div class="row">
+            <div class="col-2">
+                <img src="pictures/Restate_Agent.png" class="offer-img" alt="Offer">
+            </div>
+            <div class="col-2">
+                <p>Brent Smith</p>
+                <h1>Mission Statement</h1>
+                <small>“Our mission is to provide the consumer with the highest level of service of
+                     any Real Estate company thereby ensuring that properties are sold or leased in 
+                     an exemplary manner. We endeavor to deliver professional service to clients and 
+                     customers so that transactions are completed to the satisfaction of all concerned.”
+                </small><br>
+                <a href="Cart_Page.html" class="btn">Buy Now &#8594;</a>
+            </div>
+        </div>
+    </div>
+</div>
+<!--testimonial-->
+<div class="testimonial">
+    <div class="small-container">
+        <div class="row">
+            <div class="col-3">
+                    <i class="fa fa-quote-left"></i>
+                    <p>Wow! Made buying a house such a breeze! I was new to home buying, and have heard horror 
+                        stories from friends and family about terrible agents. Brent Smith was professional and personal! 
+                        She never made me feel uncomfortable and helped me every step of the way!</p>
+                    <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-half-o"></i>
+                    </div>
+                    <img src="pictures/User_Icon.png" alt="User_Icon">
+                    <h3>John P.</h3>
+            </div>
+            <div class="col-3">
+                <i class="fa fa-quote-left"></i>
+                <p>Brent Smith is absolutely wonderful to work with. It's like having a friend on the “inside” that is
+                     working for you. He/She really care about his/hers clients as well as the community and 
+                     neighborhood he/she live in.</p>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                </div>
+                <img src="pictures/User_Icon.png" alt="User_Icon">
+                <h3>Alison M.</h3>
+            </div>
+            <div class="col-3">
+                <i class="fa fa-quote-left"></i>
+                <p> I worked with Brent Smith - an excellent agent. He listed my place in April and we were on contract
+                     in 3 months, at asking price. He is an excellent negotiator with a very personalized touch. 
+                     Highly recommended!</p>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+                <img src="pictures/User_Icon.png" alt="User_Icon">
+                <h3>Doris L.</h3>
+            </div>
+        </div>
+    </div>
+</div>
+<!--Brands-->
+<div class="brands">
+    <div class="small-container">
+        <div class="row">
+            <div class="col-5">
+                <img src="pictures/Centennial_Logo.png" alt="School_Logo">
+            </div>
+            <div class="col-5">
+                <img src="pictures/Element_Logo.png" alt="Element_Logo">
+            </div>
+            <div class="col-5">
+                <img src="pictures/PayPal_Logo.png" alt="PayPal_Logo">
+            </div>
+            <div class="col-5">
+                <img src="pictures/Vans_Logo.png" alt="Vans_Logo">
+            </div>
+            <div class="col-5">
+                <img src="pictures/Walmart_Logo.png" alt="Walmart_Logo">
+            </div>
+        </div>
+    </div>
+</div>
+<!--Footer-->
+<div class="footer">
+    <div class="container">
+        <div class="row">
+            <div class="footer-col-1">
+                <h3>Download Our App</h3>
+                <p>Download App for Android and IOS mobile phone.</p>
+                <div class="app-logo">
+                    <img src="pictures/Apple_Download.png" alt="Apple_Download">
+                    <img src="pictures/Android_Download.png" alt="Android_Download">
+                </div>
+            </div>
+            <div class="footer-col-2">
+                <img src="pictures/StreetTribe_Logo.png" alt="Logo_Name">
+                <p>All is Art - Custom apparel</p>
+            </div>
+            <div class="footer-col-3">
+                <h3>Useful Links</h3>
+                <ul>
+                    <li>Coupons</li>
+                    <li>Blog Post</li>
+                    <li>Return Policy</li>
+                    <li>Join StreetTribe</li>
+                </ul>
+            </div>
+            <div class="footer-col-4">
+                <h3>Follow us</h3>
+                <ul>
+                    <li>Instagram</li>
+                    <li>Facebook</li>
+                    <li>Twitter</li>
+                    <li>Youtube</li>
+                </ul>
+            </div>
+        </div>
+        <hr>
+        <p class="copyright">Copyright Jacob</p>
+    </div>
+</div>
+<script>
+    var menuItems = document.getElementById("menuItems");
+    menuItems.style.maxHeight="0px";
+    function menutoggle(){
+        if(menuItems.style.maxHeight=="0px")
+        {
+            menuItems.style.maxHeight="200px";
+        }
+        else
+        {
+            menuItems.style.maxHeight="0px";
+        }
+    }
+</script>
+</body>
+</html>
