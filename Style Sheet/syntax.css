@@ -57,7 +57,7 @@ nav a:hover::before{
 }
 .project-title{
   text-align: center;
-  margin-bottom: 1rem;
+  margin-bottom: 0.5rem;
 }
 .project-pic{
   width: 65%;
@@ -77,7 +77,10 @@ nav a:hover::before{
 .project-card {
   background-color: #fff;
   border-radius: 11px;
-  box-shadow: 0 3px 10px;
+  box-shadow: 0 3px 10px #8b8eaf;
   padding: 20px;
   margin: 10px;
+}
+.project-details{
+  margin-bottom: 0.5rem;
 }
