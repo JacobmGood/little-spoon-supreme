@@ -1,0 +1,26 @@
+[
+  {
+    "id": 0,
+    "name": "Colorado National Monument",
+    "description": "Double Rainbow",
+    "source": "img/photo05.jpg"
+  },
+  {
+    "id": 1,
+    "name": "Rocky Mountain National Park",
+    "description": "Camas Wild Flower",
+    "source": "img/photo07.jpg"
+  },
+  {
+    "id": 2,
+    "name": "Rocky Mountain National Park",
+    "description": "Chasm Lake",
+    "source": "img/photo08.jpg"
+  },
+  {
+    "id": 3,
+    "name": "Rocky Mountain National Park",
+    "description": "Sprague Lake",
+    "source": "img/photo11.jpg"
+  }
+]
