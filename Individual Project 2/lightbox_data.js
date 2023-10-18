@@ -12,7 +12,7 @@
 */
 
 // Title of the slideshow
-let lightboxTitle = "My Western Vacation";
+let lightboxTitle = "Western Vacation";
 
 // Names of the image files shown in the slideshow
 let imgFiles = ["img/photo01.jpg", "img/photo02.jpg", "img/photo03.jpg", "img/photo04.jpg",
