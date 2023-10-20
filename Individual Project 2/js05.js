@@ -169,6 +169,7 @@ function createLightbox() {
          imgCount = 6;
          lbCounter.textContent = currentImg + " / " + imgCount;
       })
+   });
 
    /*for (let i = 0; i < 3; i++) {
       let image = document.createElement("img");
@@ -206,7 +207,6 @@ function createLightbox() {
       image.alt = imgCaptions[i];
       image.onclick = createOverlay;
    }*/
-      });
 
       $("#allphotos").click(function(){
          lbImages.id = "lbImages";
