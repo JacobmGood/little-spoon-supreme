@@ -51,7 +51,6 @@ nav a:hover::before{
   width: 100%;
 }
 .projects {
-  background-color:beige;
   padding: 32px 0;
   margin-top: 2rem;
 }
@@ -88,4 +87,15 @@ nav a:hover::before{
   box-shadow: 0 3px 10px #8b8eaf;
   padding: 20px;
   margin: 10px;
+}
+html{
+height: 100%;
+background: linear-gradient(
+  to bottom,
+  white 0%,
+  white 10%,
+  #efecdb 20%,
+  #efecdb 100%
+);
+background-attachment: fixed;
 }

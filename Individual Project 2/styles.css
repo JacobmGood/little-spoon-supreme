@@ -13,6 +13,15 @@
  body{
    margin: 0;
    padding: 0;
+    height: 100%;
+    background: linear-gradient(
+      to bottom,
+      white 0%,
+      white 10%,
+      #efecdb 20%,
+      #efecdb 100%
+    );
+    background-attachment: fixed;
  }
  header{
    background: white;
@@ -117,6 +126,7 @@ article {
    width: 1000px;
    height: 800px;
    margin: 0 auto;
+   
 }
 
 article > h1 {
